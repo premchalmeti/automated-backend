@@ -1,0 +1,44 @@
+<web-app>
+        <servlet>
+		<servlet-name>buildForm</servlet-name>	
+		<servlet-class>BuildForm</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>buildForm</servlet-name>
+		<url-pattern>/buildForm</url-pattern>	
+	</servlet-mapping>
+        <servlet>
+		<servlet-name>NewServlet</servlet-name>	
+		<servlet-class>ParseHTML</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>NewServlet</servlet-name>
+		<url-pattern>/ParseHTML</url-pattern>	
+	</servlet-mapping>
+        
+        <servlet>
+		<servlet-name>New</servlet-name>
+		<servlet-class>parsing</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>New</servlet-name>
+		<url-pattern>/parse</url-pattern>	
+	</servlet-mapping>
+        <servlet>
+		<servlet-name>fileupload</servlet-name>	
+		<servlet-class>FileUploadServlet</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>fileupload</servlet-name>
+		<url-pattern>/file</url-pattern>	
+	</servlet-mapping>
+        <servlet>
+		<servlet-name>sam</servlet-name>	
+		<servlet-class>sampleformParaRetrieve</servlet-class>	
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>sam</servlet-name>
+		<url-pattern>/sam</url-pattern>	
+	</servlet-mapping>
+</web-app>
+ 

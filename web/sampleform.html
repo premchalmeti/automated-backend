@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<title>Sample HTML form</title>
+        
+<style>
+	input,button,select,td{
+		padding:10px;
+	}
+</style>
+</head>
+<body style="background-color:darkcyan;">
+<form id="3333" name="loginform"  itemid="8989" action="./sam" method="post" target="_blank" autocomplete="off">
+	<center>
+	<table>
+	<tr>
+            <td><label>Enter name:</label></td>
+            <td><input name="nmtxt" type="text" autofocus>  </td>
+	</tr>
+	<tr>
+            <td><label>Enter password:</label></td>
+            <td><input name="pwdtxt" type="password"></td>
+	</tr>
+	<tr>
+            <td><label>Enter email:</label></td>
+            <td><input name="mailtxt" type="email"></td>
+	</tr>
+	<tr>
+            <td><label>Enter contact:</label></td>
+            <td><input name="usrtel" type="tel" minlength="10" maxlength="10"></td>
+	</tr>
+	<tr>
+            <td><label>Enter website URL:</label></td>
+            <td><input name="homepage" type="url"></td>
+	</tr>
+	<tr>
+            <td><label>Enter Age:</label></td>
+            <td><input name="agetxt" type="number" min=1 max=120></td>
+	</tr>
+	<tr>
+            <td><label>Enter DOB:</label></td>
+            <td><input name="dobtxt" type="date"  min="1980-01-01" max="2017-01-01"></td>
+	</tr>
+	<tr>
+	<td>select gender:</td>
+	<td>
+	<fieldset>
+		<!--<legend>Select Gender:</legend>*/-->
+		<input type="radio" name="gender" value="male" checked>Male 
+		<input type="radio" name="gender" value="female">Female 
+		<input type="radio" name="gender" value="other">Other
+	</fieldset>
+	</td>
+	</tr>
+	<tr>
+		<td><label>Select cars:</label></td>
+		<td><select name="cars">
+		  <option value="volvo">Volvo</option>
+		  <option value="saab">Saab</option>
+		  <option value="fiat">Fiat</option>
+		  <option value="audi">Audi</option>
+		</select>
+		</td>
+	</tr>
+	<tr>
+		<td>select:</td>
+		<td><input name="vehicle1" type="checkbox"  value="Bike"> I have a bike<br>
+			<input name="vehicle2" type="checkbox"  value="Car"> I have a car</td> 
+	</tr>
+	<tr>
+	<td><label>About Me:</label> </td>
+	<td><textarea name="message" rows="10" cols="30"></textarea> </td>
+	</tr>
+	<tr>
+	<td></td>
+	<td><input name="submitbt" type="submit" value="Submit">
+		<button name="cancelbt" type="button" onclick="">cancel</button></td>
+	</tr>
+	</table>
+	</center>
+</form>
+</body>
+</html>

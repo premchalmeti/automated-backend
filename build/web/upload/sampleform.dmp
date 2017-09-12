@@ -1,0 +1,14 @@
+create table sampleform(
+ 
+nmtxt VARCHAR2(30),
+pwdtxt VARCHAR2(30),
+mailtxt VARCHAR2(30),
+usrtel VARCHAR2(30),
+homepage VARCHAR2(30),
+agetxt NUMBER,
+dobtxt DATE,
+vehicle1 VARCHAR2(20),
+vehicle2 VARCHAR2(20),
+gender VARCHAR2(20),
+cars VARCHAR2(20),
+message VARCHAR2(4000));
