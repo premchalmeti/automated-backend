@@ -1,5 +1,5 @@
 # Automated backend generation for HTML forms
-Technologies used : 
+Technologies used: 
 CKEditor, HTML5, CSS3, BootStrap, JSoup API, JavaScipt, jQuery, Java Servlet and PHP.
 
 The idea of the project comes under the topic of <b>opportunistic programming</b>.
